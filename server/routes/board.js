@@ -1,3 +1,6 @@
+// Board routes: create, list, retrieve, and delete custom boards for the
+// authenticated user.
+
 const express = require('express');
 const router = express.Router();
 const Board = require('../src/models/Board');
