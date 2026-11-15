@@ -1,3 +1,5 @@
+// Tutorial route: serves the static tutorial content for new players.
+
 const express = require('express');
 const router = express.Router();
 
