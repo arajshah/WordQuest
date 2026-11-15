@@ -1,3 +1,6 @@
+// Index router: mounts every route module and serves the board preview
+// and word-check endpoints.
+
 // Purpose: Index file for all routes.
 
 const express = require('express');
