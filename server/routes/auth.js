@@ -1,3 +1,6 @@
+// Auth routes: Google OAuth login and callback, logout, and auth status
+// check for the current session.
+
 const express = require('express');
 const router = express.Router();
 const passport = require('passport');
