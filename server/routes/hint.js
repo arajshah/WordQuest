@@ -1,3 +1,6 @@
+// Hint route: returns a random letter from the board, or a clue pointing
+// at words starting with a given letter.
+
 const express = require('express');
 const router = express.Router();
 const User = require('../src/models/User');
