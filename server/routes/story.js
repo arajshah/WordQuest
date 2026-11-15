@@ -1,3 +1,6 @@
+// Story routes: list all story mode levels, or fetch a single level by
+// its level number.
+
 const express = require('express');
 const router = express.Router();
 const Level = require('../src/models/Level');
