@@ -1,3 +1,6 @@
+// Rewards routes: mock store items, awarding coins to a user, and buying
+// an item from the store.
+
 // server/src/routes/rewards.js
 const express = require('express');
 const router = express.Router();
