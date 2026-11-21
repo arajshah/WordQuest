@@ -1,3 +1,7 @@
+// Client helpers for the WordQuest API.
+// Fetch the classic and story boards and check a guessed word
+// against the server.
+
 export const fetchBoard = async () => {
   const response = await fetch('http://localhost:4000/api/boards');
   const data = await response.json();
