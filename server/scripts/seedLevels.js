@@ -1,3 +1,7 @@
+// Seed the story-mode levels into the database.
+// Clears the existing levels collection, then inserts the two
+// starter levels used by the story mode board.
+
 require('dotenv').config();
 const connectDB = require('../src/config/db');
 const Level = require('../src/models/Level');
