@@ -1,3 +1,6 @@
+// Letter grid for a WordQuest board.
+// Renders each letter in a fixed-size cell, one row per board row.
+
 import React from 'react';
 
 function Board({ board }) {
