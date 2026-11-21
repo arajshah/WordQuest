@@ -1,3 +1,8 @@
+// WordQuest server entry point.
+// Loads environment variables, connects to the database, wires up
+// logging, CORS, JSON parsing, sessions, and auth, mounts the
+// centralized router, and listens on the configured port.
+
 require('dotenv').config();
 
 const express = require('express');
