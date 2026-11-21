@@ -1,3 +1,7 @@
+// WordQuest root component.
+// Defines the client-side routes for the game modes, custom boards,
+// profile, store, and tutorial pages.
+
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
