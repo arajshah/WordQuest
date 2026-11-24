@@ -1,3 +1,5 @@
+// client/src/index.js
+// React entry point: mounts the App under the MUI theme provider.
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
