@@ -1,3 +1,5 @@
+// client/src/components/BackButton.js
+// Button that navigates back to the home page.
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
