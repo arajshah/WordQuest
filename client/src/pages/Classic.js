@@ -1,3 +1,5 @@
+// Classic mode page: renders the board for a standard game.
+
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import Board from '../Board';
