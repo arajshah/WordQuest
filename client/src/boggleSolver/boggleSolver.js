@@ -1,3 +1,5 @@
+// Boggle solver: finds every dictionary word hidden on the board.
+
 class BoggleSolver {
   constructor(board, dictionary) {
     this.board = board.map(row => row.map(cell => cell.toUpperCase()));
